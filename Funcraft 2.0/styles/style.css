@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+/* CSS's Gerais */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+/* CSS's Header 1 */
+
+#nav {
+    background-color: #111111;
+    height: 80px;
+    padding: 0px 25px 0px 25px;
+    border-bottom: 2px solid #343434;
+}
+
+.menu {
+    font-family: 'din', arial, georgia, sans-serif;
+}
+
+.botton1 {
+    font-family: 'mark', arial, georgia, sans-serif;
+}
+
+.logo {
+    font-family: 'Silkscreen', cursive;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 15px;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.flex-logo {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.flex-right {
+    height: 21px;
+    padding: 3px;
+    margin-left: 75px;
+}
+
+.flex-right1 {
+    display: flex;
+    color: black;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    background: linear-gradient(to right, rgb(255, 56, 72), rgb(252, 95, 108));
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.test {
+    height: 100px;
+}
+
+.flex-item:hover {
+    background: rgb(46, 46, 46);
+    height: 25px;
+    border-radius: 4px;
+    transition: color 1s cubic-bezier(0.06, 0.81, 0, 0.98),border-color .5s cubic-bezier(0.06, 0.81, 0, 0.98);
+    box-shadow: 0px 30px 0px -12px rgba(255, 56, 73, 0.568);
+}
+
+.flex-right:hover {
+    background: rgb(46, 46, 46);
+    border-radius: 4px;
+}
+
+.flex-logo:hover, .logo2:hover {
+    color: rgb(255, 70, 85);
+}
+
+/* CSS's Header 2 */
+
+.imgs {
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 25px 25px 40px rgba(0, 0, 0, 0.35), inset -25px -25px 40px rgba(0, 0, 0, 0.35);
+    width: 100%;
+    height: 506px;
+}
+
+.triang1 {
+    position: absolute;
+    top: 488px;
+    border-left: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #f9f9f9;
+}
+
+.triang2 {
+    position: absolute;
+    right: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 150px solid transparent; 
+    border-right: 100px solid #f9f9f9; 
+}
+
+.retang {
+    position: absolute;
+    top: 88px;
+    right: 0;
+    border-top: 0px solid #f9f9f9;
+    border-bottom: 500px solid #f9f9f9; 
+    border-right: 15px solid #f9f9f9;
+}
+
+.imgs2 {
+    position: absolute;
+    width: 500px;
+    height: 506px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1), -40px -40px 30px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    top: 80px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+.imgs3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 506px;
+}
+
+.selector-game1 {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    width: 50%;
+    height: 50%;
+    z-index: 2;
+}
+
+.parag {
+    font-family: 'mark', arial, georgia, sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.596);
+}
+
+.parag2 {
+    margin-top: 50px;
+}
+
+.logo2 {
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.596);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.selector-game2 {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.selector-game3 {
+    background-color: #FF4655;
+    height: 100px;
+    padding: 10px;
+}
+
+.left {
+    margin-right: 40px;
+    margin-top: 9px;
+}
+
+.right {
+    margin-left: 40px;
+    margin-top: 9px;
+}
+
+/* BOTÃO DE ESCOLHA */
+.part1 {
+    display: flex;
+}
+
+.part2 {
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+}
+
+.part33 {
+    background-color: #FF4655;
+    width: 0px;
+    height: 50px;
+    transition-timing-function: ease-in;
+    transition: width .2s;
+}
+
+.part33:hover {
+    width: 300px;
+}
+
+.part5 {
+    color: #0f1923;
+    font-weight: 600;
+    font-family: din, arial, georgia, sans-serif;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+}
+
+.part5:hover {
+    color: white;
+}
+/* BOTÃO DE ESCOLHA */
+
+/* CSS's Main */
+
+
+/* CSS's Footer */
+
