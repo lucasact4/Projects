@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+df-messenger {
+  --df-messenger-bot-message: #d3d4d6;
+  --df-messenger-button-titlebar-color: #ee3f20;
+  --df-messenger-button-titlebar-font-color: rgb(255, 255, 255);
+  --df-messenger-chat-background-color: #f5dede;
+  --df-messenger-font-color: rgb(73, 73, 73);
+  --df-messenger-send-icon: #e2633c;
+  --df-messenger-user-message: #f07034;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatBot Portinho</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="temahome.css" id="link">
+</head>
+<body>
+  <header>
+    <h1>TELA DO SITE</h1>
+    <div onclick="acao()" class="config btn"><img class="config02" src="settings_icon.png" alt=""><img id="config01" class="config01" src="close_icon.png" alt=""></div>
+    <div class="modal">
+      <div class="configint">
+        <div>
+          <img class="configtitle configimg" src="setting_intern.png" alt="">
+          <h2 class="configtitle configlabel">Configurações do Portinho</h2>
+        </div>
+        <div class="temas">
+          <div onclick="voltar()" class="voltar">
+            <span class="material-symbols-outlined voltar1">arrow_back_ios</span>
+            <div class="voltar2">Voltar</div>
+          </div>
+          <div class="flex-ctemas">
+            <div onclick="tema01()" class="botao btn1">
+              <p>Tema Home</p>
+              <img class="imgtems" src="temahome.png" alt="">
+            </div>
+            <div onclick="tema02()" class="botao btn2">
+              <p>Tema Red-Grey</p>
+              <img class="imgtems" src="temaredgrey.png" alt="">
+            </div>
+            <div onclick="tema03()" class="botao btn3">
+              <p>Tema Dark-Blue</p>
+              <img class="imgtems" src="temadarkblue.png" alt="">
+            </div>
+            <div onclick="tema04()" class="botao btn4">
+              <p>Tema Christmas</p>
+              <img class="imgtems" src="temachristmas.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="fontes">
+          <div onclick="voltar()" class="voltar">
+            <span class="material-symbols-outlined voltar1">arrow_back_ios</span>
+            <div class="voltar2">Voltar</div>
+          </div>
+          <div>
+            <h1>EM BREVE!</h1>
+          </div>
+        </div>
+        <div class="outrasopcoes">
+          <div onclick="voltar()" class="voltar">
+            <span class="material-symbols-outlined voltar1">arrow_back_ios</span>
+            <div class="voltar2">Voltar</div>
+          </div>
+          <div>
+            <h1>EM BREVE!</h1>
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="flex-item cor">
+            <span>Temas Visuais</span>
+            <img class="imgselector01" src="temahome.png" alt="">
+            <p class="paragraph">Altere o tema da sua preferência</p>
+            <span onclick="temas()" class="material-symbols-outlined nextap">arrow_forward_ios</span>
+          </div>
+          <div class="flex-item fonte">
+            <span>Fontes</span>
+            <img class="imgselector02" src="fontesconfig.png" alt="">
+            <p class="paragraph">Altere o tamanho e o estilo da fonte de acordo com a sua preferência</p>
+            <span onclick="fontes()" class="material-symbols-outlined nextap nextapp">arrow_forward_ios</span>
+          </div>
+          <div class="flex-item outros">
+            <span>Outras Opções</span>
+            <img class="imgselector03" src="outrosconfig.png" alt="">
+            <p class="paragraph">Veja outras opções que possam auxiliar no seu desempenho</p>
+            <span onclick="outrasopcoes()" class="material-symbols-outlined nextap nextapp">arrow_forward_ios</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fade"></div>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+    <df-messenger
+      chat-title="Fale com o Portinho ETE"
+      df-cx="true"
+      location="us-central1"
+      agent-id="21f74ad1-5fc4-4f13-93f8-b8120fd3a4ad"
+      language-code="pt-br"
+    ></df-messenger>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>

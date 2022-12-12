@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+body {
+  background-color: #b1b1b1;
+}
+
+h1 {
+  color: #797979;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.config {
+  z-index: 5;
+  background-color: #0054A5;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
+  color: white;
+  cursor: pointer;
+  height: 56px;
+  width: 56px;
+  box-shadow: rgb(0 0 0 / 24%) 1px 4px 15px 0px;
+}
+
+.config02 {
+  height: 37px;
+  margin: 9px;
+}
+
+.modal {
+z-index: 5;
+width: 850px;
+height: 560px;
+background-color: white;
+border-radius: 5px;
+box-shadow: rgb(0 0 0 / 24%) 1px 4px 15px 0px;
+position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-73%, -59.3%);
+  display: none;
+  animation: animate;
+  animation-duration: 800ms;
+}
+
+.fade {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.6);
+z-index: 4;
+display: none;
+}
+
+.configint {
+padding: 25px 50px;
+}
+
+.configtitle {
+display: inline;
+}
+
+.configimg {
+height: 40px;
+}
+
+.configlabel {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: inline-block;
+position: relative;
+top: -10px;
+}
+
+.flex-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 400px;
+gap: 15px;
+}
+
+.flex-item {
+width: 100%;
+height: 100%;
+text-transform: uppercase;
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+background-color: rgb(230, 230, 230);
+border: 1px solid rgb(210, 210, 210);
+padding-top: 5px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.config01 {
+  position: relative;
+  display: none;
+  height: 25px;
+  margin: 15px;
+}
+
+#config01 {
+  transform: rotate(90deg);
+  animation: rotate, animate;
+  animation-duration: 400ms;
+}
+
+.config02 {
+  display: block;
+}
+
+.botao {
+  margin: 0 auto;
+  width: 200px;
+  height: 350px;
+  background-color: rgb(230, 230, 230);
+  border: 1px solid rgb(210, 210, 210);
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.imgtems {
+  display: block;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 25px;
+  box-shadow: rgb(0 0 0 / 35%) 1px 4px 15px 0px;
+}
+
+.flex-ctemas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 400px;
+  gap: 15px;
+}
+
+.botao > p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.voltar1, .voltar2 {
+  display: inline-block;
+  position: relative;
+  top: -10px;
+}
+
+.voltar2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: -15px;
+}
+
+.voltar {
+  color: #0054A5;
+  background-color: rgb(230, 230, 230);
+  border: 1px solid rgb(210, 210, 210);
+  transition: 0.3s;
+  height: 8px;
+  width: 80px;
+  padding: 15px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.voltar:hover {
+  background-color: rgb(220, 220, 220);
+  border: 1px solid rgb(212, 212, 212);
+}
+
+.temas {
+  display: none;
+}
+
+.fontes {
+  display: none;
+}
+
+.outrasopcoes {
+  display: none;
+}
+
+.imgselector01 {
+  display: block;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-color: rgb(220, 220, 220);
+  border: 1px solid rgb(212, 212, 212);
+  box-shadow: rgb(0 0 0 / 10%) 1px 4px 15px 0px;
+}
+
+.imgselector02 {
+  display: block;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-color: rgb(220, 220, 220);
+  border: 1px solid rgb(212, 212, 212);
+  box-shadow: rgb(0 0 0 / 10%) 1px 4px 15px 0px;
+}
+
+.imgselector03 {
+  display: block;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-color: rgb(220, 220, 220);
+  border: 1px solid rgb(212, 212, 212);
+  box-shadow: rgb(0 0 0 / 10%) 1px 4px 15px 0px;
+}
+
+.paragraph {
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+.nextap {
+  color: #0054A5;
+  background-color: rgb(220, 220, 220);
+  border: 1px solid rgb(212, 212, 212);
+  transition: 0.3s;
+  height: 25px;
+  width: 200px;
+  padding: 9px;
+  cursor: pointer;
+}
+
+.nextapp {
+  margin-top: 35px;
+}
+
+.nextap:hover {
+  background-color: rgb(215, 215, 215);
+  border: 1px solid rgb(205, 205, 205);
+}
+
+header {
+  height: 100vh;
+}
+
+main {
+  height: 100vh;
+}
+
+@keyframes animate{
+from{opacity: 1;}
+from{opacity: 0;}
+}
+
+@keyframes rotate{
+  from{rotate: 0deg;}
+  from{rotate: 90deg;}
+}
