@@ -2,10 +2,10 @@
 
 df-messenger {
   --df-messenger-bot-message: #535353;
-  --df-messenger-button-titlebar-color: #1f15a8;
+  --df-messenger-button-titlebar-color: #534bc0;
   --df-messenger-button-titlebar-font-color: rgb(255, 255, 255);
   --df-messenger-chat-background-color: #3a3a3a;
   --df-messenger-font-color: rgb(238, 238, 238);
-  --df-messenger-send-icon: #4565f1;
-  --df-messenger-user-message: #1856dd;
+  --df-messenger-send-icon: #5a6fca;
+  --df-messenger-user-message: #4373db;
 }

@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 df-messenger {
-  --df-messenger-bot-message: #006D18;
-  --df-messenger-button-titlebar-color: #006D18;
+  --df-messenger-bot-message: #238638;
+  --df-messenger-button-titlebar-color: #218d39;
   --df-messenger-button-titlebar-font-color: #ffffff;
-  --df-messenger-chat-background-color: #0AB034;
+  --df-messenger-chat-background-color: #3aca5e;
   --df-messenger-font-color: #ffffff;
   --df-messenger-input-box-color: #d6d6d6;
   --df-messenger-input-font-color: #000000;
   --df-messenger-input-placeholder-font-color: #666666;
   --df-messenger-minimized-chat-close-icon-color: #000000;
-  --df-messenger-send-icon: #f3b200;
-  --df-messenger-user-message: #e65400;
+  --df-messenger-send-icon: #dfb43e;
+  --df-messenger-user-message: #ca6931;
 }

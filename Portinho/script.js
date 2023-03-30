@@ -33,7 +33,7 @@ function tema01(){
   let btn3 = document.querySelector('.btn3')
   let btn4 = document.querySelector('.btn4')
   a.href = "temahome.css"
-  configc.style.backgroundColor = '#0054A5';
+  configc.style.backgroundColor = '#1969b4';
   btn1.style.backgroundColor = 'rgb(205, 205, 205)';
   btn2.style.backgroundColor = 'rgb(230, 230, 230)';
   btn3.style.backgroundColor = 'rgb(230, 230, 230)';
@@ -48,7 +48,7 @@ function tema02(){
   let btn3 = document.querySelector('.btn3')
   let btn4 = document.querySelector('.btn4')
   a.href = "temaredgrey.css"
-  configc.style.backgroundColor = '#ee3f20';
+  configc.style.backgroundColor = '#eb715c';
   btn1.style.backgroundColor = 'rgb(230, 230, 230)';
   btn2.style.backgroundColor = 'rgb(205, 205, 205)';
   btn3.style.backgroundColor = 'rgb(230, 230, 230)';
@@ -63,7 +63,7 @@ function tema03(){
   let btn3 = document.querySelector('.btn3')
   let btn4 = document.querySelector('.btn4')
   a.href = "temadarkblue.css"
-  configc.style.backgroundColor = '#1f15a8';
+  configc.style.backgroundColor = '#534bc0';
   btn1.style.backgroundColor = 'rgb(230, 230, 230)';
   btn2.style.backgroundColor = 'rgb(230, 230, 230)';
   btn3.style.backgroundColor = 'rgb(205, 205, 205)';
@@ -78,7 +78,7 @@ function tema04(){
   let btn3 = document.querySelector('.btn3')
   let btn4 = document.querySelector('.btn4')
   a.href = "temachristmas.css"
-  configc.style.backgroundColor = '#006D18';
+  configc.style.backgroundColor = '#218d39';
   btn1.style.backgroundColor = 'rgb(230, 230, 230)';
   btn2.style.backgroundColor = 'rgb(230, 230, 230)';
   btn3.style.backgroundColor = 'rgb(230, 230, 230)';
