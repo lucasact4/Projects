@@ -1,0 +1,64 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.landing-page_width-limit {
+    overflow-x: hidden;
+    max-width: 1920px;
+}
+
+.landing-page_general-shadow {
+    box-shadow: 0 -10px 10px -5px #0006, 0 0 10px #0006;
+}
+
+.bg-dark-two {
+    background-color: #181818;
+}
+
+
+/* Fonts */
+.font-montserrat-700 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.font-bebas-neue-400 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-varela-round-bold {
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Custom Tooltip */
+.custom-tooltip {
+    --bs-tooltip-bg: #343a40 !important;
+    &::after {
+        content: " ";
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        margin-left: -10px;
+      }
+    .tooltip-inner {
+        color: #fff;
+        font-size: 14px;
+        padding: 8px 12px;
+        border-radius: 4px;
+    }
+    &.show {
+        opacity: 1;
+        transition: opacity 0s ease-in-out;
+    }
+}

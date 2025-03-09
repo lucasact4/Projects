@@ -1,0 +1,66 @@
+/* Header & Nav Styles */
+.landing-page_header-background {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    .landing-page_header-shadow {
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow-x: hidden;
+        .landing-page_header-nav {
+            height: 100px;
+            .logo {
+                color: white;
+                font-family: 'Silkscreen', cursive;
+                font-size: 24px;
+                font-weight: bold;
+                transition: color 0.3s ease;
+                &:hover {
+                    color: rgb(255, 70, 85);
+                }
+            }
+            .landing-page_header-nav-img {
+                height: 100px;
+                filter: drop-shadow(0 0 0.2rem rgb(0, 0, 0));
+                transition: all 0.3s ease-in-out;
+                cursor: pointer;
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+            .landing-page_header-nav-menu {
+                a {
+                    font-family: 'din', arial, georgia, sans-serif;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 15px;
+                    padding: 2px 17px;
+                    text-shadow: 1px 1px 5px #000000;
+                    position: relative;
+                    transition: color 0.3s ease, background-color 0.3s ease;
+                    background-color: transparent;
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        left: 50%;
+                        bottom: 0px;
+                        width: 0;
+                        height: 2px;
+                        background-color: rgb(255, 70, 85);
+                        transition: width 0.3s ease, left 0.3s ease;
+                    }
+                    &:hover {
+                        border-radius: 2px 2px 0 0;
+                        background-color: rgb(46, 46, 46);
+                        color: white;
+                        &::after {
+                            width: 100%;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
