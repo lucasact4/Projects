@@ -10,7 +10,7 @@ a {
 }
 
 .landing-page_width-limit {
-  overflow-x: hidden;
+  overflow: hidden;
   width: 1920px;
 }
 

@@ -110,28 +110,39 @@ html:has(#menu-toggle:checked) {
   }
 }
 @media (max-width: 1400px) {
-  .carousel-item {
+  .carousel-item, .design-carrousel-lateral {
     height: 660px;
   }
 }
 @media (max-width: 1200px) {
-  .carousel-item {
+  .carousel-item, .design-carrousel-lateral {
     height: 570px;
   }
 }
 @media (max-width: 991px) {
-  .carousel-item {
+  .carousel-item, .design-carrousel-lateral {
     height: 470px;
   }
 }
 @media (max-width: 500px) {
   .carousel-control-next {
     width: 10%;
-    right: 50px;
+    right: 100px;
   }
   .carousel-control-prev {
     width: 10%;
-    left: 50px;
+    left: 100px;
+  }
+  .carousel-btn-first {
+    width: 200px !important;
+    height: 25px;
+  }
+  .carousel-btn-first .carousel-btn-second:hover {
+    width: 200px;
+  }
+  .carousel-btn-first .carousel-btn-second .carousel-btn-third {
+    width: 200px !important;
+    height: 25px;
   }
   .carousel-item:nth-child(1) img {
     content: url("../images/minecraft-1080.png");
@@ -142,7 +153,7 @@ html:has(#menu-toggle:checked) {
   .carousel-item:nth-child(3) img {
     content: url("../images/ark-asa-1080.png");
   }
-  .carousel-item {
+  .carousel-item, .design-carrousel-lateral {
     height: 500px;
   }
 }

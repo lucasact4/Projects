@@ -8,81 +8,95 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="text-white bg-dark d-flex justify-content-center">
-    <div class="landing-page_width-limit landing-page_general-shadow">
-        <header class="landing-page_header-background" id="home">
-            <div class="test-div">
-              <div class="landing-page_header-shadow">
-                  <div class="container">
-                      <nav class="landing-page_header-nav d-flex justify-content-around align-items-center">
-                          <span>
-                              <a href="#home">
-                                <h1 class="logo">GamerPage</h1>
-                              </a>
-                          </span>
-                          <div class="collapse navbar-collapse d-flex justify-content-end">
-                            <div class="w-100">
-                              <label class="d-flex justify-content-around align-items-center">
-                                <input
-                                  type="checkbox"
-                                  id="menu-toggle"
-                                  class="landing-page_checkbox"
-                                >
-                                <span class="menu d-flex align-items-center justify-content-center">
-                                  <span class="hamburger">
+<body class="text-white bg-dark">
+    <div class=" d-flex justify-content-center w-100">
+      <div class="landing-page_width-limit landing-page_general-shadow">
+          <header class="landing-page_header-background d-flex justify-content-center" id="home">
+              <div class="landing-page_header-nav-container">
+                <div class="landing-page_header-shadow">
+                    <div class="container">
+                        <nav class="landing-page_header-nav d-flex justify-content-around align-items-center">
+                            <span>
+                                <a href="#home">
+                                  <h1 class="logo">GamerPage</h1>
+                                </a>
+                            </span>
+                            <div class="collapse navbar-collapse d-flex justify-content-end">
+                              <div class="w-100">
+                                <label class="d-flex justify-content-around align-items-center">
+                                  <input
+                                    type="checkbox"
+                                    id="menu-toggle"
+                                    class="landing-page_checkbox"
+                                  >
+                                  <span class="menu d-flex align-items-center justify-content-center">
+                                    <span class="hamburger">
+                                    </span>
                                   </span>
-                                </span>
-                                <span class="navbar-nav font-montserrat-700 landing-page_header-nav-menu w-100 d-flex justify-content-around flex-row px-5">
-                                  <a href="#home">JOGOS</a>
-                                  <a href="#about-us">SERVIDORES</a>
-                                  <a href="#service">LOJA</a>
-                                  <a href="#our-team">QUEM SOMOS NÓS?</a>
-                                  <a href="#contact">CONTATO</a>
-                                </span>
-                              </label>
+                                  <span class="navbar-nav font-montserrat-700 landing-page_header-nav-menu w-100 d-flex justify-content-around flex-row px-5">
+                                    <a href="#home">JOGOS</a>
+                                    <a href="#about-us">SERVIDORES</a>
+                                    <a href="#service">LOJA</a>
+                                    <a href="#our-team">QUEM SOMOS NÓS?</a>
+                                    <a href="#contact">CONTATO</a>
+                                  </span>
+                                </label>
+                              </div>
                             </div>
-                          </div>
-                      </nav>
-                  </div>
-              </div>
-            </div>
-            <div class="d-flex justify-content-center">
-              <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/minecraft.png" class="d-block w-100" alt="Imagem 1">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/gta-5.png" class="d-block w-100" alt="Imagem 2">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/ark-asa.png" class="d-block w-100" alt="Imagem 3">
-                  </div>
+                        </nav>
+                    </div>
                 </div>
-                <div class="carousel-fixed-btn d-flex justify-content-center">
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon-img" aria-hidden="true"><i class="bi bi-chevron-double-left"></i></span>
-                    <span class="visually-hidden">Anterior</span>
-                  </button>
-                  <div class="carousel-btn-border">
-                    <div class="carousel-btn carousel-btn-first">
-                      <div class="carousel-btn-second">
-                        <a href="#" id="carousel-btn" class="carousel-btn-third">Minecraft</a>
-                      </div>
+              </div>
+              <div class="d-flex justify-content-center h-100 w-100 carousel-container">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/minecraft.png" class="d-block w-100" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/gta-5.png" class="d-block w-100" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/ark-asa.png" class="d-block w-100" alt="Imagem 3">
                     </div>
                   </div>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon-img" aria-hidden="true"><i class="bi bi-chevron-double-right"></i></span>
-                    <span class="visually-hidden">Próximo</span>
-                  </button>
+                  <div class="carousel-fixed-btn d-flex justify-content-center">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon-img" aria-hidden="true"><i class="bi bi-chevron-double-left"></i></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <div class="carousel-btn-border">
+                      <div class="carousel-btn carousel-btn-first">
+                        <div class="carousel-btn-second">
+                          <a href="#" id="carousel-btn" class="carousel-btn-third">Minecraft</a>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon-img" aria-hidden="true"><i class="bi bi-chevron-double-right"></i></span>
+                      <span class="visually-hidden">Próximo</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="design-carrousel-line-right">
+                </div>
+                <div class="design-triangle-one">
+                </div>
+                <div class="design-triangle-two">
+                </div>
+                <div class="design-carrousel-line-bottom">
                 </div>
               </div>
-            </div>
-        </header>
+          </header>
+      </div>
     </div>
-    <main>
-
-    </main>
+    <div class=" d-flex justify-content-center w-100">
+      <div class="landing-page_width-limit landing-page_general-shadow">
+        <main>
+          <h1>Página em Desenvolvimento...</h1>
+        </main>
+      </div>
+    </div>
     <footer>
 
     </footer>
