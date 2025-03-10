@@ -11,7 +11,7 @@ a {
 
 .landing-page_width-limit {
   overflow-x: hidden;
-  max-width: 1920px;
+  width: 1920px;
 }
 
 .landing-page_general-shadow {

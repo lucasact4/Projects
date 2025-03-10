@@ -1,3 +1,91 @@
+.carousel-item {
+  width: 100%;
+  height: 900px;
+}
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
 
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  opacity: 1;
+}
+.carousel-control-prev .carousel-control-prev-icon, .carousel-control-prev .carousel-control-next-icon, .carousel-control-next .carousel-control-prev-icon, .carousel-control-next .carousel-control-next-icon {
+  width: 100px;
+  height: 50px;
+}
+
+.carousel-fixed-btn {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  width: 500px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+}
+
+.carousel-btn-first {
+  background-color: white;
+  width: 300px;
+  height: 50px;
+  margin: auto;
+}
+.carousel-btn-first .carousel-btn-second {
+  background-color: #FF4655;
+  width: 0px;
+  height: 50px;
+  transition-timing-function: ease-in;
+  transition: width 0.2s;
+}
+.carousel-btn-first .carousel-btn-second:hover {
+  width: 300px;
+}
+.carousel-btn-first .carousel-btn-second .carousel-btn-third {
+  color: #0f1923;
+  font-weight: 600;
+  font-family: din, arial, georgia, sans-serif;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.carousel-btn-first .carousel-btn-second .carousel-btn-third.exit {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.carousel-btn-first .carousel-btn-second .carousel-btn-third.enter {
+  transform: translateX(100%);
+  opacity: 0;
+}
+.carousel-btn-first .carousel-btn-second .carousel-btn-third.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+.carousel-btn-first .carousel-btn-second .carousel-btn-third:hover {
+  color: white;
+}
 
 /*# sourceMappingURL=header-main-style.css.map */

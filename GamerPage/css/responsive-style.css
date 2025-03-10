@@ -109,5 +109,34 @@ html:has(#menu-toggle:checked) {
     opacity: 0;
   }
 }
+@media (max-width: 1400px) {
+  .carousel-item {
+    height: 660px;
+  }
+}
+@media (max-width: 1200px) {
+  .carousel-item {
+    height: 570px;
+  }
+}
+@media (max-width: 991px) {
+  .carousel-item {
+    height: 470px;
+  }
+}
+@media (max-width: 500px) {
+  .carousel-item:nth-child(1) img {
+    content: url("../images/minecraft-1080.png");
+  }
+  .carousel-item:nth-child(2) img {
+    content: url("../images/gta-5-1080.png");
+  }
+  .carousel-item:nth-child(3) img {
+    content: url("../images/ark-asa-1080.png");
+  }
+  .carousel-item {
+    height: 500px;
+  }
+}
 
 /*# sourceMappingURL=responsive-style.css.map */

@@ -1,11 +1,11 @@
 /* Header & Nav Styles */
 .landing-page_header-background {
-    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
     .landing-page_header-shadow {
+        box-shadow: 0 -10px 10px -5px #0006, 0 0 10px #0006;
         background-color: rgba(0, 0, 0, 0.7);
         overflow-x: hidden;
         .landing-page_header-nav {
