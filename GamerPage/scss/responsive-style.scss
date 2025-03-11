@@ -116,20 +116,26 @@ html:has(#menu-toggle:checked) {
     }
 }
 
+@media (min-width: 1401px) {
+    .design-carrousel-line-right {
+        height: 900px;
+    }
+}
+
 @media (max-width: 1400px) {
-    .carousel-item, .design-carrousel-lateral {
+    .carousel-item, .design-carrousel-line-right {
         height: 660px;
     }
 }
 
 @media (max-width: 1200px) {
-    .carousel-item, .design-carrousel-lateral {
+    .carousel-item, .design-carrousel-line-right {
         height: 570px;
     }
 }
 
 @media (max-width: 991px) {
-    .carousel-item, .design-carrousel-lateral {
+    .carousel-item, .design-carrousel-line-right {
         height: 470px;
     }
 }
@@ -171,7 +177,7 @@ html:has(#menu-toggle:checked) {
             content: url('../images/ark-asa-1080.png');
         }
     }
-    .carousel-item, .design-carrousel-lateral {
+    .carousel-item, .design-carrousel-line-right {
         height: 500px;
     }
 }
